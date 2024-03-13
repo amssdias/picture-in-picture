@@ -24,10 +24,10 @@ button.addEventListener("click", async () => {
     button.disabled = true;
 
     // Start Picture in Picture
-    await videoElement.requestPictureinPicture();
+    await videoElement.requestPictureInPicture();
 
     // Reset Button
     button.disabled = false;
 })
 
-selectMediaStream()
+selectMediaStream();
